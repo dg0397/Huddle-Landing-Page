@@ -44,10 +44,11 @@
     }
 }
 
-@mixin logo($width,$maxWidth) {
+@mixin logo($width,$maxWidth,$minWidth) {
     .container__logo{
         width: $width;
         max-width: $maxWidth;
+        min-width: $minWidth;
         @include image();
     }
 }
